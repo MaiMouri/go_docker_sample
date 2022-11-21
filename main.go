@@ -116,6 +116,12 @@ func main() {
 		})
 	})
 
+	r.GET("/ping", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "pong",
+		})
+	})
+
 	// fmt.Print("Golang from docker")
 	// http.HandleFunc("/", homePage)
 	// http.HandleFunc("/users", userPage)

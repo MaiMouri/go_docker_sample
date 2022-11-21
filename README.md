@@ -44,3 +44,16 @@ mkdir database
 ```
 touch migration.sql
 ```
+
+
+## docker へのインストール
+```
+docker-compose exec go ash
+```
+``
+go get github.com/gin-gonic/gin
+```
+
+```
+go get github.com/jinzhu/gorm
+```
